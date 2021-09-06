@@ -185,7 +185,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2021-09-06 08:31:29 / Modified: 14:12:40" itemprop="dateCreated datePublished" datetime="2021-09-06T08:31:29+08:00">2021-09-06</time>
+      <time title="Created: 2021-09-06 08:31:29 / Modified: 14:38:22" itemprop="dateCreated datePublished" datetime="2021-09-06T08:31:29+08:00">2021-09-06</time>
     </span>
 
   
@@ -199,6 +199,25 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>你被困在一个3D地牢中且继续寻找最短路径逃生！地牢由立方体单位构成，立方体单位中有的会充满岩石。向上下前后左右移动一个单位需要一分钟。你不能向对角线的四个方向移动且迷宫四周环绕着许多岩石。<br>是否可以逃出地牢？如果可以，则需要多少时间？</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>输入的第一行包含一个数，表示地牢的数量。<br>　　每个地牢的描述，其第一行包含三个数L，R和C（均小于等于30）。<br>　　L表示地牢的层数；R和C分别表示每层地牢的行与列的大小。</p>
+<p>　　随后输入地牢的层数L，每层中包含R行，每行中包含C个字符。<br>　　每个字符表示地牢的一个单元。’#’表示岩石单元，’.’表示空白单元。你的起始位置在点’S’，出口为’E’。<br>　　每层地牢的输入后都有一个空行。当L，R和C均为0时，输入结束。</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>每个迷宫对应一行输出。<br>　　如果可以逃生，则输出如下<br>Escaped in x minute(s).<br>　　x为最短脱离时间。<br>　　如果无法逃生，则输出如下<br>Trapped!</p>
+<h2 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input"></a>Sample Input</h2><p>3 4 5 (4行 5列 3层， .表示通路，#表示非通路)</p>
+<p>S….</p>
+<p>.###.</p>
+<p>.##..</p>
+<p>###.#</p>
+<p>/#####</p>
+<p>/#####</p>
+<p>##.##</p>
+<p>##…</p>
+<p>/#####</p>
+<p>/#####</p>
+<p>#.###</p>
+<p>####E</p>
+<h2 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output"></a>Sample Output</h2><p>Escaped in 11 minute(s).</p>
+<p>Trapped!</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>题目链接：<a target="_blank" rel="noopener" href="https://vjudge.net/problem/POJ-2251">https://vjudge.net/problem/POJ-2251</a></p>
 <h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
