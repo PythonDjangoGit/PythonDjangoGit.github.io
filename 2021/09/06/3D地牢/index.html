@@ -28,7 +28,7 @@
 <meta property="og:description" content="Description你被困在一个3D地牢中且继续寻找最短路径逃生！地牢由立方体单位构成，立方体单位中有的会充满岩石。向上下前后左右移动一个单位需要一分钟。你不能向对角线的四个方向移动且迷宫四周环绕着许多岩石。是否可以逃出地牢？如果可以，则需要多少时间？ Input输入的第一行包含一个数，表示地牢的数量。　　每个地牢的描述，其第一行包含三个数L，R和C（均小于等于30）。　　L表示地牢的层数；R和">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-09-06T00:31:29.000Z">
-<meta property="article:modified_time" content="2021-09-06T06:38:22.838Z">
+<meta property="article:modified_time" content="2021-09-06T06:41:00.995Z">
 <meta property="article:author" content="Enc_wyp">
 <meta property="article:tag" content="Algorithm">
 <meta name="twitter:card" content="summary">
@@ -108,7 +108,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Description"><span class="nav-number">1.</span> <span class="nav-text">Description</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Input"><span class="nav-number">2.</span> <span class="nav-text">Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Output"><span class="nav-number">3.</span> <span class="nav-text">Output</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sample-Input"><span class="nav-number">4.</span> <span class="nav-text">Sample Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sample-Output"><span class="nav-number">5.</span> <span class="nav-text">Sample Output</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">6.</span> <span class="nav-text"></span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">6.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">6.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">6.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">6.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Description"><span class="nav-number">1.</span> <span class="nav-text">Description</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Input"><span class="nav-number">2.</span> <span class="nav-text">Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Output"><span class="nav-number">3.</span> <span class="nav-text">Output</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sample-Input"><span class="nav-number">4.</span> <span class="nav-text">Sample Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sample-Output"><span class="nav-number">5.</span> <span class="nav-text">Sample Output</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">6.</span> <span class="nav-text"></span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AC%E4%BB%A3%E7%A0%81"><span class="nav-number">7.</span> <span class="nav-text">AC代码</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -192,7 +192,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2021-09-06 08:31:29 / Modified: 14:38:22" itemprop="dateCreated datePublished" datetime="2021-09-06T08:31:29+08:00">2021-09-06</time>
+      <time title="Created: 2021-09-06 08:31:29 / Modified: 14:41:00" itemprop="dateCreated datePublished" datetime="2021-09-06T08:31:29+08:00">2021-09-06</time>
     </span>
 
   
@@ -224,19 +224,8 @@
 <p>####E</p>
 <h2 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output"></a>Sample Output</h2><p>Escaped in 11 minute(s).</p>
 <p>Trapped!</p>
-<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>题目链接：<a target="_blank" rel="noopener" href="https://vjudge.net/problem/POJ-2251">https://vjudge.net/problem/POJ-2251</a></p>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>题目链接：<a target="_blank" rel="noopener" href="https://vjudge.net/problem/POJ-2251">https://vjudge.net/problem/POJ-2251</a><br>最短路bfs，和二维的基本一样，就是原来4个方向，现在6个方向，原来数组是二维，现在是三维，也相当于模板题了</p>
+<h2 id="AC代码"><a href="#AC代码" class="headerlink" title="AC代码"></a>AC代码</h2><p>#include <iostream><br>#include <cstdio><br>#include <fstream><br>#include <algorithm><br>#include <cmath><br>#include <deque><br>#include <vector><br>#include <queue><br>#include <string><br>#include <cstring><br>#include <map><br>#include <stack><br>#include <set><br>#define mod 1000000007<br>#define ll long long<br>#define INF 0x3f3f3f3f<br>using namespace std;<br>int sl,sx,sy;<br>int el,ex,ey;<br>char mp[35][35][35];//记录地图<br>int vis[35][35][35];//标记是否走过<br>int base[6][3] = { {-1,0,0},{1,0,0},{0,-1,0},{0,1,0},{0,0,-1},{0,0,1} };//六个方向<br>int l,r,c;<br>struct node<br>{<br>    int f,x,y;//位置<br>    int step;//步数<br>    friend bool operator&lt;(node a,node b)//步数小的现出来，即时间少<br>    {<br>        return a.step&gt;b.step;//优先队列，步数小的先访问<br>    }<br>};<br>priority_queue<node>q;<br>/<em><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>bfs</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></em>**/<br>void bfs()<br>{<br>    node p;<br>    p.f=sl;//初始化<br>    p.x=sx;<br>    p.y=sy;<br>    p.step=0;<br>    vis[sl][sx][sy]=1;<br>    q.push(p);<br>    while(!q.empty())<br>    {<br>        node s=q.top();<br>        q.pop();<br>        if(s.f==el&amp;&amp;s.x==ex&amp;&amp;s.y==ey)//满足条件<br>        {<br>            printf(“Escaped in %d minute(s).\n”,s.step);<br>            return;<br>        }<br>            for(int i=0; i&lt;6; i++)//6种走法<br>            {<br>                int tl=s.f+base[i][0];<br>                int tx=s.x+base[i][1];<br>                int ty=s.y+base[i][2];<br>                if(mp[tl][tx][ty]!=’#’&amp;&amp;tl&gt;=0&amp;&amp;tl&lt;l&amp;&amp;tx&gt;=0&amp;&amp;tx&lt;r&amp;&amp;ty&gt;=0&amp;&amp;ty&lt;c&amp;&amp;!vis[tl][tx][ty])//判断是否能走<br>                {<br>                    node e;<br>                    e.f=tl;<br>                    e.x=tx;<br>                    e.y=ty;<br>                    e.step=s.step+1;<br>                    vis[e.f][e.x][e.y]=1;<br>                    q.push(e);<br>                }<br>            }<br>    }<br>    cout&lt;&lt;”Trapped!”&lt;&lt;endl;<br>}<br>/**********************************主函数*********************************/<br>int main()<br>{<br>    while(cin &gt;&gt; l &gt;&gt; r &gt;&gt;c,l+r+c)<br>    {<br>        for(int i=0; i&lt;l; i++)<br>        {<br>            for(int j=0; j&lt;r; j++)<br>            {<br>                cin &gt;&gt; mp[i][j];<br>                for(int k=0; k&lt;c; k++)<br>                {<br>                    if(mp[i][j][k]==’S’)<br>                        {<br>                            sl=i;<br>                            sx=j;<br>                            sy=k;<br>                        }<br>                    if(mp[i][j][k]==’E’)<br>                    {<br>                        el=i;<br>                        ex=j;<br>                        ey=k;<br>                    }<br>                }<br>            }<br>        }<br>        memset(vis,0,sizeof(vis));//每次都要初始化<br>        bfs();<br>    }<br>}</p>
 
     </div>
 
